@@ -9,9 +9,12 @@ module BankStorage
     end
 end
 
+#The one that included last will looked first for method.
+
 class BankMananger
+    include BankStorage # -> first included
+    include BankAccount # -> second included
     include BankStorage
-    include BankAccount
     # def calculate_interest
     #     puts "The interest from BankManager class"
     # end
