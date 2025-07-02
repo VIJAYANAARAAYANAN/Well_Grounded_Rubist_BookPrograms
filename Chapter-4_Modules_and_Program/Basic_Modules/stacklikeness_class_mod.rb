@@ -11,6 +11,7 @@ a.add_to_stack("item 3")
 
 puts a.stack
 
+
 puts "Removing items on the stack"
 a.remove_from_stack
 puts a.stack
