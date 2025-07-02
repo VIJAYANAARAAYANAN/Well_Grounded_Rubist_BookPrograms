@@ -12,6 +12,8 @@ class Cargo
 end
 
 c = Cargo.new
+
+
 c.loading("stock1")
 c.loading("stock2")
 c.loading("stock3")

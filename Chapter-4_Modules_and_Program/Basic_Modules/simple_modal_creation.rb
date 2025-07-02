@@ -16,6 +16,8 @@ class Welcoming
     end
 end
 
+puts Greetings.class # - >The Super class of the module is the Module class (instance of the class Class)
+
 obj = Welcoming.new
 obj.welcom
 obj.greetings
