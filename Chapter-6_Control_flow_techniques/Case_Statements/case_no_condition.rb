@@ -3,11 +3,11 @@ puts Time.now.wday
 
 case
 when x > 0
-    puts "Positive numbers"
+  puts "Positive numbers"
 when x == 0
-    puts "The number is 0"
+  puts "The number is 0"
 when x < 0
-    puts "The number is negatives"
+  puts "The number is negatives"
 else
-    puts "Nothings"
+  puts "Nothings"
 end

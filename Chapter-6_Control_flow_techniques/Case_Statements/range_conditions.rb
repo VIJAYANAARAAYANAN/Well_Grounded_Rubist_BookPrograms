@@ -10,4 +10,3 @@ when 70..79
 else
   puts "Failed"
 end
-

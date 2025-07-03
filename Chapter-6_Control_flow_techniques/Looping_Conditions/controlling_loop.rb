@@ -16,5 +16,3 @@ loop do
   x += 1
   break if x > 9
 end
-
-

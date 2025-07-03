@@ -1,5 +1,7 @@
 def greet
   puts "Hi"
+
+  #Implicit way of execution without blocks
   yield
   puts "Bye"
 end
