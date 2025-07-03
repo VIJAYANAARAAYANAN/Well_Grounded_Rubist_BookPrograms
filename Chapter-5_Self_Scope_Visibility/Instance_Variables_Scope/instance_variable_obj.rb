@@ -11,4 +11,4 @@ class Student
 end
 
 obj = Student.new
-obj.stu_method
+obj.stu_methodsss
