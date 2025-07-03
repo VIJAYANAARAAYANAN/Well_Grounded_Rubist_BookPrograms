@@ -7,7 +7,7 @@ class Stack
         stack.push(obj)
     end
     def remove_from_stack
-        stack.pop()
+        stack.pop
     end
 end
 
