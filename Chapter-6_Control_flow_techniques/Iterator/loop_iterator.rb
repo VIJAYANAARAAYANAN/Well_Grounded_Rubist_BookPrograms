@@ -6,4 +6,3 @@ end
 
 #Block
 my_loop { puts "Hey this is being yielded inside the my_loop method"}
-
