@@ -1,4 +1,4 @@
-#Rescue inside the being end block
+#Rescue inside the begin end block
 print "Enter a number "
 input = gets.to_i
 begin
@@ -29,9 +29,8 @@ class Operation
   def division(x,y)
     puts "Inside the class"
     result = x / y
-    rescue
-
-      puts "Tries to divide by 0 not possible"
+  rescue
+    puts "Tries to divide by 0 not possible"
   end
 end
 
