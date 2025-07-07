@@ -3,8 +3,7 @@ p (1..5).to_a
 
 puts [1,2,3,4,5].class
 
-# * -> start operator
-#unpacking of array elements
+# puts { name: "vijay", age: 10 }              
 
 arr = [1,2,3,4,5,6]
 

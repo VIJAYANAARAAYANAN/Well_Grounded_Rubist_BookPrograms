@@ -9,7 +9,7 @@ class Person
 end
 
 person = Person.new("vijay")
-puts person
+puts person.inspect
 p person
 
 "Vijay ".display
