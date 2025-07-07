@@ -36,4 +36,3 @@ puts set_b.subset?(set_a)
 
 puts "Is A a superset of B?"
 puts set_a.superset?(set_b)      
-

@@ -28,3 +28,4 @@ tri_state << "Andhra Pradesh"
 tri_state.delete("kerala")
 tri_state.delete("odissa")
 p tri_state
+p tri_state

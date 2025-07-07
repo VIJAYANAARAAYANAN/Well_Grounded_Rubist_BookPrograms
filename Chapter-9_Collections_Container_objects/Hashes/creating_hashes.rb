@@ -49,4 +49,3 @@ p person.values
 
 puts person.fetch(:email, "Not provided")
 puts person.include?(:city)
-
