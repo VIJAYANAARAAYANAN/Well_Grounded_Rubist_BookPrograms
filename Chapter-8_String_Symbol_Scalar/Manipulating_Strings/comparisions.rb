@@ -1,7 +1,6 @@
 puts "apple" == "apple"
 puts "apple" == "Apple"
 
-
 puts "cat" > "bat"
 puts "apple" < "banana"
 puts "Ruby" > "RubyOnRails"

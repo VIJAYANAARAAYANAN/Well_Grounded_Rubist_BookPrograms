@@ -7,7 +7,6 @@ puts Date.today
 tomorrow_date = Date.new(2025,7,7)
 puts tomorrow_date
 
-#if not given then takes 1 as the default value
 any_date = Date.new(7)
 puts any_date
 
@@ -27,3 +26,11 @@ dates = <<END
 END
 
 puts dates
+
+puts date.strftime("%d-%m-%Y")  
+puts date.strftime("%d/%m/%Y")
+
+
+date1 = Date.new(2025, 1, 15)
+puts date1.strftime("%A, %d %B %Y")
+

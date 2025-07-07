@@ -3,7 +3,9 @@ puts string[3]
 puts string[-1]
 
 str = "Ruby is a good language"
-puts str[0..4]
+puts str[0,30]
+
+puts str[0..40]
 puts str[-12..-3]
 puts str[7..14]
 
@@ -13,4 +15,3 @@ puts str
 
 str[-1] = "!"
 puts str
-

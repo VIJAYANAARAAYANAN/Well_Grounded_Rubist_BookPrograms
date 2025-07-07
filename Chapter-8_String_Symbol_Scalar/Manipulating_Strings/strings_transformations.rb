@@ -15,7 +15,8 @@ puts "  hello  ".rstrip
 puts "hello\n".chomp
 puts "hello!".chop
 
-puts "hello".tr("el", "ip")
+
+puts "aaa elrhello".tr("el", "ip")
 
 puts "heeeelleooo".squeeze
 
@@ -48,3 +49,6 @@ puts true.to_s
 puts "name".to_sym        
 puts "user_id".to_sym     
 
+puts "David A. Black".delete("abc")
+puts "David A. Black".delete("^abc")
+puts "David A. Black".delete("a-e")

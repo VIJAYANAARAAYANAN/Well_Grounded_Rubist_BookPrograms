@@ -12,7 +12,7 @@ text2 = <<-'EOW'
 Single Quoted Strings
 The addition of two numbers 5 and 10 is #{5 + 10}
 End of strings
-EOW
+            EOW
 
 puts text2.inspect
 puts text2

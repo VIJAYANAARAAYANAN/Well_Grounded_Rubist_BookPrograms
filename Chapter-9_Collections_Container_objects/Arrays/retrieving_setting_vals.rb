@@ -11,7 +11,7 @@ puts arr.at(-1)
 puts arr.slice(2)
 
 p arr.slice(1, 3)
-p arr.slice(-3, 2)
+puts  "Retrieving slide #{arr.slice(-3,10)}"
 
 p arr[1..3]
 p arr[1...3]

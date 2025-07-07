@@ -1,4 +1,3 @@
-
 puts Symbol.all_symbols.size
 
 #immutable
@@ -20,8 +19,8 @@ puts :abc.object_id
 puts :abc.object_id
 
 a = :vijay
-puts a.class         # => Symbol
-puts a               # => vijay
+puts a.class         
+puts a
 
 person = {name: "vijay",age: 20}
 person1 = {name:"dimki",age: 21}

@@ -12,10 +12,10 @@ puts "Intersection:"
 p a & b  
 
 puts "Difference (a - b):"
-p a - b         # => {1, 2}
+p a - b         
 
 puts "Difference (b - a):"
-p b - a         # => {5, 6}
+p b - a         
 
 
 #Supersets and Subsets

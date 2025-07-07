@@ -13,7 +13,6 @@ hash6 = Hash.new
 hash6["a"] = "hello"
 hash6["a"] = "world"
 
-
 p hash1
 p hash2
 p hash3

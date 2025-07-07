@@ -32,8 +32,5 @@ puts "hi".length == 0
 
 puts "hello".size
 
-puts "hello".valid_encoding?
-puts "\xFF".valid_encoding?
-
 puts "apple" < "banana"
 puts "dog" > "cat"

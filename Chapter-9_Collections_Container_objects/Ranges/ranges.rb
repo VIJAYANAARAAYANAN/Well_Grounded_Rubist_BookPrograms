@@ -4,6 +4,9 @@ p r1.to_a
 r2 = Range.new(1,10)
 p r2.to_a
 
+exc = Range.new(1,10,true)
+p exc.to_a
+
 #exclusive range with ... dots
 r3 = 1...5
 p r3.to_a
@@ -21,6 +24,7 @@ puts ("a".."d").include?("z")
 
 
 #Cover
+puts "Covering"
 puts (1..5).cover?(3)       
 puts (1..5).cover?(4.9)     
 puts (1..5).cover?(6)       

@@ -12,6 +12,8 @@ p arr1
 
 arr2 = Array.new(3) {"hello"}
 p arr2
+arr2[0] << "world"
+p arr2
 
 arr3 = Array.new(5) {|i| i * 2}
 p arr3
