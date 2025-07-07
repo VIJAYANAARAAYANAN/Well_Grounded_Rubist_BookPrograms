@@ -3,9 +3,9 @@ class Person
     @name = name
   end
 
-  def inspect
-    puts "Person name #{@name}"
-  end
+  # def inspect
+  #   puts "Person name #{@name}"
+  # end
 end
 
 person = Person.new("vijay")

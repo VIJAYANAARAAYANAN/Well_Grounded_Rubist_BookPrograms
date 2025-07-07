@@ -6,7 +6,7 @@ class Statement < String
   def -@
     downcase
   end
-
+  
   def !
     reverse
   end

@@ -3,7 +3,6 @@ input = gets.chomp
 case input
 when "yes"
   puts "Exiting the program GoodBye"
-  exit
 when "no"
   puts "Continue Execution the program"
 when "opt"
@@ -11,3 +10,5 @@ when "opt"
 else
   puts "Enter either yes or no and no other inputs"
 end
+
+puts "HERE"

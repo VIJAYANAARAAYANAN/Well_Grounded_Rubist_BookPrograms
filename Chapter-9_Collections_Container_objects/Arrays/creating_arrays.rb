@@ -18,8 +18,6 @@ p arr2
 arr3 = Array.new(5) {|i| i * 2}
 p arr3
 
-
-
 string = "hello world, hi everyone"
 arrr = Array(string)
 p arrr

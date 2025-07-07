@@ -1,4 +1,5 @@
 class My_OwnError < StandardError
+  # MyOwnError 
 end
 
 begin

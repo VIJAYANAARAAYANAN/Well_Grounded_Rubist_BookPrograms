@@ -19,7 +19,7 @@ def divide(x, y)
   x / y
 rescue ZeroDivisionError
   puts "Can't divide by zero"
-  return nil
+  # return nil
 end
 
 divide(10, 0)

@@ -1,6 +1,6 @@
 x = 1
 unless x == 1
-    puts "The value of the x is not 1"
+  puts "The value of the x is not 1"
 end
 
 number = 100
