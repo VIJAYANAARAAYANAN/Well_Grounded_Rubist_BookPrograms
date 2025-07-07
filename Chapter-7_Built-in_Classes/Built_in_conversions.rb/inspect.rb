@@ -11,5 +11,3 @@ end
 person = Person.new("vijay")
 puts person.inspect
 p person
-
-"Vijay ".display

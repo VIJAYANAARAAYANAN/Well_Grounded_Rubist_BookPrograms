@@ -37,7 +37,6 @@ end
 obj = Operation.new
 obj.division(1,0)
 
-
 #Inside iterations
 arr = [1,2,3,0,5,2]
 arr.each do |n|

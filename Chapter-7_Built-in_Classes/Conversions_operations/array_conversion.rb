@@ -14,7 +14,6 @@ def add_nums(*n)
   end
   return sum
 end
-
 puts add_nums(*arr)
 
 

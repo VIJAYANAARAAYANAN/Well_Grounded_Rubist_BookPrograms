@@ -84,7 +84,6 @@ end
 
 puts "-"
 
-
 begin
   puts "10. RuntimeError"
   raise "This is a manual runtime error!"

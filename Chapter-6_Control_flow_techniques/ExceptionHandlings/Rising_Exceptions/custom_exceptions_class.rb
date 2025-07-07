@@ -7,4 +7,3 @@ rescue => e
   puts "Message: #{e.message}"
   puts "Caught: #{e.class}"
 end
-

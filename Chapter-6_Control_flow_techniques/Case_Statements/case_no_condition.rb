@@ -1,7 +1,7 @@
 x = 10
 puts Time.now.wday
 
-case
+case 
 when x > 0
   puts "Positive numbers"
 when x == 0

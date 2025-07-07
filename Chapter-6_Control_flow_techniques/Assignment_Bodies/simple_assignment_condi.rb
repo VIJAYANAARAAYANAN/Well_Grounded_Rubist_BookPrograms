@@ -1,4 +1,4 @@
-if x = 1
+if (x = 1)
   puts "The value of x is #{x}"
 end
 if x = "false"

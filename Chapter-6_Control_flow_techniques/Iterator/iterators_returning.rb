@@ -6,5 +6,3 @@ puts evens.inspect
 
 odd = [1,2,3,4,5,6,7].filter {|i| i.odd?}
 puts odd.inspect
-
-
