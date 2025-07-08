@@ -56,3 +56,4 @@ sum2 = arr2.inject do |var,n|
   var += n
 end
 puts sum2
+puts sum
