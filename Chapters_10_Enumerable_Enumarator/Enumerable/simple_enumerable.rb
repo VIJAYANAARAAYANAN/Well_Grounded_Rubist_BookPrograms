@@ -1,5 +1,5 @@
 class Numbers
-  include Enumerable   # Optional, if you want map, select, etc.
+  include Enumerable   
 
   def initialize(numbers)
     @nums = numbers
@@ -31,7 +31,6 @@ p res
 #Map
 res = arr.map {|n| n * 10}
 p res
-
 
 class Colors
   include Enumerable

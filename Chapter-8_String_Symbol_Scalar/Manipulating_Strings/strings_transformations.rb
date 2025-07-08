@@ -26,7 +26,7 @@ puts "hello world".delete("l")
 
 puts "hi".center(10, "-")
 puts "hi".ljust(6, ".")
-puts "hi".rjust(6, "*")
+puts "hi".rjust(6, "*_!*_")
 
 str = "world"
 puts str.prepend("hello ")

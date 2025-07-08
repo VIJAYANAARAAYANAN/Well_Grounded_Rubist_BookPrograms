@@ -33,4 +33,3 @@ puts date.strftime("%d/%m/%Y")
 
 date1 = Date.new(2025, 1, 15)
 puts date1.strftime("%A, %d %B %Y")
-

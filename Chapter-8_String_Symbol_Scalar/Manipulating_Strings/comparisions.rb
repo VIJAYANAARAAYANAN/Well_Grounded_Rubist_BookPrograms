@@ -18,3 +18,8 @@ puts "A".ord
 puts "apple" <=> "banana"
 puts "cat" <=> "cat"
 puts "zebra" <=> "apple"
+
+range = "A".."Z"
+range.each do |i|
+  puts "char #{i} - #{i.ord}"
+end

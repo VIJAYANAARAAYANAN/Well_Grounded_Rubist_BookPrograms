@@ -21,6 +21,10 @@ arr = [10, 20, 30, 40, 50]
 p arr.take(2)
 p arr.drop(2)
 
+states = %w{ NJ NY CT MA VT FL }
+p states.take_while {|n| /N/.match(n)}
+p states.drop_while {|n| /N/.match(n)}
+
 #Min and Max methods
 arr = [1,2,3,4,5]
 
@@ -41,3 +45,20 @@ res1 = <<~END
 END
 
 puts res1
+
+class Dice
+  def each
+    loop do |i|
+      yield rand(6) + 1
+    end
+  end
+end
+
+d = Dice.new
+d.each do |n|
+  puts "You have rolled #{n}"
+  if n == 6
+    puts "Got it!"
+    break
+  end
+end
