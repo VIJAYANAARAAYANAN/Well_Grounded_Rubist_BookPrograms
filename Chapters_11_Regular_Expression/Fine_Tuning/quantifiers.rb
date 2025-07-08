@@ -18,6 +18,14 @@ p "aa".match(/a{3,}/)
 
 p "aaaa".match(/a{2,4}/)
 
-p "aaaaa".match(/a+/)
+#GREEDY
+string = "abc!def!ghi!"
+pattern = /.+!/
 
-p "aaaaa".match(/a+?/)
+res = string.match(pattern)
+p res
+
+#LAZY
+patt = /.+?!/
+res1 = string.match(patt)
+p res1
