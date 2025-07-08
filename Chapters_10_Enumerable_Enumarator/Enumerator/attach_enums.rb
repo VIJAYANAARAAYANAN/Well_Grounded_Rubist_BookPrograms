@@ -33,5 +33,4 @@ obj = arr.to_enum(:inject,0)
 result = obj.each { |acc, n| acc + n }
 
 puts result
-
-
+puts obj

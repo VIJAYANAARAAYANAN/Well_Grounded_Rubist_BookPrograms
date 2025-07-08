@@ -40,3 +40,4 @@ end
 a = [1,2,"3","4",5.3,"10"]
 ress = a.sort_by {|b| b.to_i}
 p ress
+p a
