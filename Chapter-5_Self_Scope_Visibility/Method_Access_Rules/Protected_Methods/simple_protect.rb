@@ -13,7 +13,8 @@ class Student
         puts "The Student #{@name} is and age #{@age}"
     end
 end
-    class Children < Student
+
+class Children < Student
     def initialize(name,age)
         super(name,age)
     end
