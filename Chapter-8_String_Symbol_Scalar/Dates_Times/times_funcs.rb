@@ -1,4 +1,6 @@
 require "time"
+puts DateTime.now
+
 
 puts Time.now
 

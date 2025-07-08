@@ -25,6 +25,8 @@ dates = <<END
 #{ Date.parse("2 Jan 2009")}
 END
 
+Date.parse("2009 05 05")
+
 puts dates
 
 puts date.strftime("%d-%m-%Y")  

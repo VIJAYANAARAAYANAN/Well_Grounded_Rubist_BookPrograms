@@ -4,7 +4,6 @@ p arr.inspect
 arr = Array.new(3)
 p arr
 
-#All of them are same objects
 arr1 = Array.new(3,"hello")
 p arr1
 arr1[0] << "world"
